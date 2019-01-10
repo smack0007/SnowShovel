@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SnowShovel", "SnowShovel", "{3116F0A3-54AD-42E3-9CDD-779954A342F4}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{747A939B-A1EB-44A5-9B5D-79547EF98D76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnowShovel", "src\SnowShovel\SnowShovel.csproj", "{E8AA9968-CA87-4C15-ADD8-C34049360A33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E6C527FA-5BE9-4D7A-98C0-64F802AF7F2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnowShovel.Tests", "tests\SnowShovel.Tests\SnowShovel.Tests.csproj", "{D9F97F41-AF38-44DE-8CF3-89914C427BE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Debug|x64.Build.0 = Debug|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Debug|x86.Build.0 = Debug|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Release|x64.ActiveCfg = Release|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Release|x64.Build.0 = Release|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Release|x86.ActiveCfg = Release|Any CPU
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33}.Release|x86.Build.0 = Release|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Debug|x64.Build.0 = Debug|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Release|x64.ActiveCfg = Release|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Release|x64.Build.0 = Release|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{747A939B-A1EB-44A5-9B5D-79547EF98D76} = {3116F0A3-54AD-42E3-9CDD-779954A342F4}
+		{E8AA9968-CA87-4C15-ADD8-C34049360A33} = {747A939B-A1EB-44A5-9B5D-79547EF98D76}
+		{E6C527FA-5BE9-4D7A-98C0-64F802AF7F2D} = {3116F0A3-54AD-42E3-9CDD-779954A342F4}
+		{D9F97F41-AF38-44DE-8CF3-89914C427BE6} = {E6C527FA-5BE9-4D7A-98C0-64F802AF7F2D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71412780-9547-41DC-9A55-9F805FF2B8B6}
+	EndGlobalSection
+EndGlobal
