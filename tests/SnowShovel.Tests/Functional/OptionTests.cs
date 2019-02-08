@@ -1,6 +1,6 @@
 ﻿using Xunit;
 using SnowShovel.Functional;
-using static SnowShovel.Functional.Extensions;
+using static SnowShovel.Functional.Statics;
 
 namespace SnowShovel.Tests.Functional
 {

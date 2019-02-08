@@ -2,7 +2,7 @@
 
 namespace SnowShovel.Functional
 {
-    public partial class Extensions
+    public partial class Statics
     {
         public static Option<T> Some<T>(T value) => (Option<T>)value;
     }

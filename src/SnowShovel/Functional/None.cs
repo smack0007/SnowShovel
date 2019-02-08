@@ -1,6 +1,6 @@
 ﻿namespace SnowShovel.Functional
 {
-    public partial class Extensions
+    public partial class Statics
     {
         public static None None => None.Default;
     }
