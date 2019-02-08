@@ -8,7 +8,7 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: 'dotnet build'
   inputs:
-    projects: SnowShovel.sln
+    projects: SnowShovel.slnproj
     arguments: '/v:d'
 
 - task: DotNetCoreCLI@2
