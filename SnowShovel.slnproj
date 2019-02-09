@@ -1,1 +1,8 @@
-<Project Sdk="MSBuild.SolutionSdk/0.1.0" />
+<Project Sdk="MSBuild.SolutionSdk/0.1.0">
+  <Target Name="VSTest">
+    <ItemGroup>
+      <TestProjects Include="tests/**/*.csproj" />
+    </ItemGroup>
+    <MSBuild Projects="@(TestProjects)" Targets="VSTest" />
+  </Target>
+</Project>
